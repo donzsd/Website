@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SilenT DonZ – TikTok Squad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fallback for older browsers -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section with Navbar -->
+  <header class="relative h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?tiktok,group');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
+
+    <!-- Navbar -->
+    <nav class="absolute top-0 left-0 w-full z-20 px-6 md:px-12 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-white tracking-wide">SilenT DonZ</div>
+      <ul class="hidden md:flex space-x-6 text-white font-medium">
+        <li><a href="#" class="hover:text-red-400 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-red-400 transition">About</a></li>
+        <li><a href="#contact" class="hover:text-red-400 transition">Contact</a></li>
+      </ul>
+      <a href="#contact" class="md:block hidden bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded transition">Join Us</a>
+    </nav>
+
+    <!-- Hero Text -->
+    <div class="relative z-10 flex items-center justify-center h-full px-6 text-center">
+      <div>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-white drop-shadow mb-6">Welcome to SilenT DonZ</h1>
+        <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">Sri Lanka’s freshest TikTok crew bringing you the hottest content in dance, comedy, and pure vibe culture.</p>
+        <a href="#contact" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg text-lg transition duration-300">Let’s Collab 🔥</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-semibold text-center mb-8">About SilenT DonZ</h2>
+    <p class="max-w-3xl mx-auto text-center leading-relaxed text-gray-300">
+      We are <strong>SilenT DonZ</strong>, a next-gen TikTok squad based in Sri Lanka. From viral dance challenges to relatable comedy and lifestyle vlogs — our content is fueled by pure creativity and teamwork. Inspired by global squads like Hype House & Sway LA, we’re here to make a mark, silently but powerfully.
+    </p>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-800 py-16 px-6 md:px-20">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <div>
+        <h3 class="text-2xl font-semibold mb-3">🔥 Viral Dance Content</h3>
+        <p class="text-gray-300">From TikTok trends to original choreography, we bring movement to life.</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-3">😂 Comedy Skits</h3>
+        <p class="text-gray-300">Short, snappy, and shareable – our humor connects with every Gen Z soul.</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-3">📸 Squad Collabs</h3>
+        <p class="text-gray-300">We collab with creators, brands & influencers to produce unforgettable content.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Follow Us Section -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-semibold mb-6">Follow Us</h2>
+    <div class="flex justify-center space-x-6 text-red-400 text-4xl">
+      <a href="#" title="TikTok">🎵</a>
+      <a href="#" title="YouTube">📺</a>
+      <a href="#" title="Instagram">📸</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-semibold text-center mb-6">Get in Touch</h2>
+    <div class="max-w-xl mx-auto bg-gray-700 p-8 rounded">
+      <form action="#" method="post" class="space-y-4">
+        <div>
+          <label class="block mb-1">Name</label>
+          <input type="text" name="name" class="w-full p-2 rounded bg-gray-600 placeholder-gray-300" placeholder="Your Name" required />
+        </div>
+        <div>
+          <label class="block mb-1">Email</label>
+          <input type="email" name="email" class="w-full p-2 rounded bg-gray-600 placeholder-gray-300" placeholder="you@example.com" required />
+        </div>
+        <div>
+          <label class="block mb-1">Message</label>
+          <textarea name="message" rows="4" class="w-full p-2 rounded bg-gray-600 placeholder-gray-300" placeholder="Say something..." required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-red-500 hover:bg-red-600 py-3 font-semibold rounded">Send Message</button>
+      </form>
+      <div class="mt-6 text-center text-gray-300">
+        <p><strong>Contact No:</strong> 075 762 4137</p>
+        <p><strong>Email:</strong> silentdonzlk@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-500 text-sm">
+    <p>© 2025 SilenT DonZ Squad. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
